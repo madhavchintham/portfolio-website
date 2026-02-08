@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Project One",
+    "description": "A brief description of your first project and what problems it solves.",
+    "techStack": ["React", "TypeScript", "Tailwind CSS"],
+    "githubUrl": "https://github.com",
+    "demoUrl": "https://example.com"
+  },
+  {
+    "id": 2,
+    "name": "Project Two",
+    "description": "Another project showcasing your skills and experience.",
+    "techStack": ["Node.js", "PostgreSQL", "Express"],
+    "githubUrl": "https://github.com",
+    "demoUrl": "https://example.com"
+  },
+  {
+    "id": 3,
+    "name": "Project Three",
+    "description": "A project demonstrating your expertise in a specific domain.",
+    "techStack": ["Python", "FastAPI", "SQLAlchemy"],
+    "githubUrl": "https://github.com",
+    "demoUrl": "https://example.com"
+  }
+]
