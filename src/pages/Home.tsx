@@ -15,6 +15,27 @@ export default function Home({ onNavigate }: HomeProps) {
         <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
           I'm passionate about writing clean, maintainable code and building products that make an impact. I'm open to exciting opportunities in software development, whether it's full-stack projects, backend systems, or innovative AI solutions.
         </p>
+
+        <div className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Services I Offer</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-3xl mx-auto">
+            <div className="p-4 bg-white rounded-lg shadow-sm">
+              <p className="text-gray-700 font-semibold">Static Websites</p>
+            </div>
+            <div className="p-4 bg-white rounded-lg shadow-sm">
+              <p className="text-gray-700 font-semibold">Web Applications</p>
+            </div>
+            <div className="p-4 bg-white rounded-lg shadow-sm">
+              <p className="text-gray-700 font-semibold">Backend APIs</p>
+            </div>
+            <div className="p-4 bg-white rounded-lg shadow-sm">
+              <p className="text-gray-700 font-semibold">Website Hosting</p>
+            </div>
+            <div className="p-4 bg-white rounded-lg shadow-sm">
+              <p className="text-gray-700 font-semibold">Bug Fixing</p>
+            </div>
+          </div>
+        </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button

@@ -59,6 +59,18 @@
 - Cloud: AWS, GCP
 - AI: Learning and Exploring AI in the software development, Prompt engineering for coding, AI-assisted development workflows, Spec-driven development with AI tools, Integrating LLM APIs into applictions
 
+### Services offer
+- Add services the developer offer below introduction text.
+- The services are as follows:
+    - static websites
+    - web applications
+    - backend apis
+    - website hosting
+    - bug fixing
+- It should be simple and easy to understand
+
+
+
 
 
 
