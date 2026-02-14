@@ -4,49 +4,28 @@ interface HomeProps {
 
 export default function Home({ onNavigate }: HomeProps) {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+    <section id="home" className="bg-gradient-to-br from-blue-50 to-indigo-100 py-12 sm:py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
+        <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-3">
           Hi, I'm Madhav Chintham
         </h1>
-        <p className="text-xl sm:text-2xl text-gray-600 mb-8">
-          Software Engineer crafting elegant solutions to complex problems
+        <p className="text-lg sm:text-2xl text-gray-600 mb-3">
+          I build websites and apps that help your business grow
         </p>
-        <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
-          I'm passionate about writing clean, maintainable code and building products that make an impact. I'm open to exciting opportunities in software development, whether it's full-stack projects, backend systems, or innovative AI solutions.
+        <p className="text-base sm:text-lg text-gray-600 mb-4 max-w-2xl mx-auto">
+          I create custom websites, web applications, and AI solutions for small businesses and entrepreneurs. Whether you need to get online, automate tasks, or add smart features to your business — I make the tech work for you.
         </p>
-
-        <div className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Services I Offer</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-3xl mx-auto">
-            <div className="p-4 bg-white rounded-lg shadow-sm">
-              <p className="text-gray-700 font-semibold">Static Websites</p>
-            </div>
-            <div className="p-4 bg-white rounded-lg shadow-sm">
-              <p className="text-gray-700 font-semibold">Web Applications</p>
-            </div>
-            <div className="p-4 bg-white rounded-lg shadow-sm">
-              <p className="text-gray-700 font-semibold">Backend APIs</p>
-            </div>
-            <div className="p-4 bg-white rounded-lg shadow-sm">
-              <p className="text-gray-700 font-semibold">Website Hosting</p>
-            </div>
-            <div className="p-4 bg-white rounded-lg shadow-sm">
-              <p className="text-gray-700 font-semibold">Bug Fixing</p>
-            </div>
-          </div>
-        </div>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
           <button
             onClick={() => onNavigate('projects')}
-            className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+            className="px-6 sm:px-8 py-2 sm:py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-sm sm:text-base"
           >
             View My Work
           </button>
           <button
             onClick={() => onNavigate('contact')}
-            className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-colors"
+            className="px-6 sm:px-8 py-2 sm:py-3 bg-white text-blue-600 font-semibold rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-colors text-sm sm:text-base"
           >
             Get In Touch
           </button>

@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Skills from './pages/Skills';
+import WhatIDo from './pages/WhatIDo';
+import HowItWorks from './pages/HowItWorks';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
@@ -19,7 +20,7 @@ export default function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'skills', 'projects', 'contact'];
+      const sections = ['home', 'whatido', 'projects', 'howitworks', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -44,8 +45,9 @@ export default function App() {
       
       <main className="flex-grow">
         <Home onNavigate={handleNavigate} />
-        <Skills />
+        <WhatIDo />
         <Projects />
+        <HowItWorks onNavigate={handleNavigate} />
         <Contact />
       </main>
       
