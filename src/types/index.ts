@@ -6,12 +6,3 @@ export interface Project {
   githubUrl: string;
   demoUrl: string;
 }
-
-export interface SkillCategory {
-  name: string;
-  skills: string[];
-}
-
-export interface SkillsData {
-  categories: SkillCategory[];
-}
