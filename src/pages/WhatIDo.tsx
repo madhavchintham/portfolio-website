@@ -13,7 +13,7 @@ export default function WhatIDo() {
     {
       id: 3,
       title: 'AI Integration',
-      description: 'Add smart features to your business with AI chatbots, automation, and data analysis tools that save you time and money.'
+      description: 'Add smart AI features to your business — chatbots that answer customer questions, automation that handles repetitive tasks, and tools.'
     },
     {
       id: 4,
