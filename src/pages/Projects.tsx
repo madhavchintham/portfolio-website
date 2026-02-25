@@ -1,5 +1,3 @@
-import ProjectCard from '../components/ProjectCard';
-import projectsData from '../data/projects.json';
 
 export default function Projects() {
   return (
@@ -7,17 +5,9 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-gray-900 mb-10 text-center">Projects</h2>
         
-        {projectsData.length === 0 ? (
-          <div className="text-center">
+        <div className="text-center">
             <p className="text-lg text-gray-600">No projects are available for now.</p>
           </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projectsData.map((project) => (
-              <ProjectCard key={project.id} project={project} />
-            ))}
-          </div>
-        )}
       </div>
     </section>
   );
